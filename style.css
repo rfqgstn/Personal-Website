@@ -42,20 +42,20 @@ a:hover{
 
 /*HOME*/
 
-main .home{
+.home{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: #E0E0E0;
 	height: 600px;
 }
 
-img{
+/*.picture{
+}*/
+
+.picture{
 	width: 300px;
 	height: 385px;
 	border-radius: 360px;
-}
-
-.picture{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -76,21 +76,65 @@ img{
 }
 
 
-main .project{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.project{
 	background-color: #FFFFFF;
 	height: 600px;
+	padding-left: 40px;
 }
 
-main .contact{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.project h1{
+	padding-top: 20px;
+	border-bottom: 2px solid #dee7ec;
+	width: 200px;
+	padding-bottom: 15px;
+}
+
+
+.project-picture{
+	width: 300px;
+	height:300px;
+	float: left;
+	padding-right: 60px;
+	padding-top: 80px;
+}
+
+.contact{
 	background-color: #E0E0E0;
 	height: 600px;
+	padding-left: 40px;
+
+}
+
+.contact h1{
+	padding-top: 20px;
+		border-bottom: 2px solid #ffffff;
+	width: 200px;
+	padding-bottom: 15px;
+}
+
+form{
+	padding-top: 10px;
+}
+
+
+
+input, textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+button{
+  background-color: #dee7ec;
+  color: #889eab;
 }
 
 footer{
 	background-color: #FFFFFF;
-	height: 90px;
+	height: 35px;
+	text-align: center;
+	padding-top: 20px;
 }
